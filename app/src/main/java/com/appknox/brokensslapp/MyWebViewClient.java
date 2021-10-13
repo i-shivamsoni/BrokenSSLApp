@@ -1,4 +1,4 @@
-package com.example.brokensslapp;
+package com.appknox.brokensslapp;
 
 import android.net.http.SslError;
 import android.webkit.SslErrorHandler;

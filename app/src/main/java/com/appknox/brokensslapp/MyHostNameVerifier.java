@@ -1,4 +1,4 @@
-package com.example.brokensslapp;
+package com.appknox.brokensslapp;
 
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;
