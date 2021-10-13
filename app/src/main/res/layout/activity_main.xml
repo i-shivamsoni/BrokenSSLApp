@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    tools:context="@string/title_activity_web">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:onClick="sendRequest"
+            android:text="@string/button_send"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="326dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:onClick="sendRequest2"
+            android:text="@string/button_send2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:onClick="sendRequest3"
+            android:text="@string/button_send3"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="326dp" />
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="311dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="467dp" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
