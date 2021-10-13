@@ -1,4 +1,4 @@
-package com.example.brokensslapp;
+package com.appknox.brokensslapp;
 
 import org.apache.http.conn.ssl.SSLSocketFactory;
 

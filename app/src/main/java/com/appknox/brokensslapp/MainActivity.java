@@ -1,4 +1,4 @@
-package com.example.brokensslapp;
+package com.appknox.brokensslapp;
 
 import android.net.SSLCertificateSocketFactory;
 import android.net.SSLSessionCache;
